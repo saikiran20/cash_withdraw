@@ -1,0 +1,141 @@
+/* Write your CSS here */
+
+* {
+  content: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.withdrwal-card {
+  background-color: #150b3e;
+  width: 350px;
+  padding: 30px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdrwal-card {
+    min-width: 550px;
+    padding: 50px;
+  }
+}
+
+.profile-bg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-icon {
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+  }
+}
+
+.profile-head {
+  color: #d4d2db;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-head {
+    font-size: 34px;
+    margin-left: 20px;
+  }
+}
+
+.balance-bg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.your-bl {
+  color: #585076;
+}
+
+@media screen and (min-width: 768px) {
+  .your-bl {
+    font-size: 30px;
+  }
+}
+
+.rs-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rs {
+  color: #d4d2db;
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .rs {
+    font-size: 40px;
+  }
+}
+
+.in-rs {
+  color: #585076;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .in-rs {
+    font-size: 24px;
+  }
+}
+
+.withdrwa-h {
+  color: #d4d2db;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .withdrwa-h {
+    font-size: 40px;
+  }
+}
+
+.choose {
+  color: #585076;
+}
+
+@media screen and (min-width: 768px) {
+  .choose {
+    font-size: 24px;
+  }
+}
+
+.amounts-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+}
